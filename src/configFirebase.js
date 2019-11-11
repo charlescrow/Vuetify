@@ -7,7 +7,7 @@ const config = {
     apiKey: '<Your api key here>',
     authDomain: '<Your auth Domain here>',
     databaseURL: '<Your databaseUrl here>',
-    projectId: '<Your projectId here>',
+    projectId: 'prueba-vuetify',
     storageBucket: '<Your storageBucket here>',
     messagingSenderId: '<Your messagingSenderId here>'
 }
@@ -19,9 +19,9 @@ let db = firebase.firestore();
 
 // Disable deprecated features
 db.settings({
-    timestampsInSnapshots: true
+    // timestampsInSnapshots: true
 });
 
-export default {
+export default {    
     db
 }
