@@ -18,16 +18,16 @@
         <v-btn icon>
           <v-icon>mdi-delete-circle</v-icon>
         </v-btn>
-        <v-btn icon>
+        <!-- <v-btn icon>
           <v-icon>mdi-plus-circle</v-icon>
-        </v-btn>
+        </v-btn> -->
       </template>
     </v-toolbar>
     <v-content>
       <router-view></router-view>
-      <v-btn class="mx-2" fab dark small color="pink">
+      <!-- <v-btn class="mx-2" fab dark small color="pink">
       <v-icon dark>mdi-plus</v-icon>
-    </v-btn>
+    </v-btn> -->
       <!-- <v-icon>$vuetify.icons.usuario</v-icon>
       <v-icon v-text="'$usuario'"></v-icon>
       <v-icon>$usuario</v-icon> -->
